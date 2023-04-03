@@ -1,0 +1,8 @@
+valor = input("Escreva uma palavra: ")
+
+valor_invertido = ""
+
+for i in range(len(valor)-1, -1, -1):
+    valor_invertido += valor[i]
+
+print(valor_invertido)
