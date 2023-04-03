@@ -1,0 +1,12 @@
+n = int(input("Quantos termos mostrar? "))
+var1 = 0
+var2 = 1
+print("{} - {}" .format(var1, var2), end='')
+cont = 3
+while cont <= n:
+    var3 = var1 + var2
+    print("- {}" .format(var3), end='')
+    var1 = var2
+    var2 = var3
+    cont += 1
+print(' - FIM')
