@@ -1,0 +1,23 @@
+#Remover os valores com virgulas para não dar problema na soma.
+
+SP = 67.836
+RJ = 36.678
+MG = 29.229
+ES = 27.165
+Outros = 19.849
+
+soma = (SP + RJ + MG + ES + Outros)
+
+valor_sp = ((SP / soma) * 100)
+valor_rj = ((RJ / soma) * 100)
+valor_mg = ((MG / soma) * 100)
+valor_es = ((ES / soma) * 100)
+valor_outros = ((Outros / soma) * 100)
+
+print(f"Percentual de representação de SP: {valor_sp:.2f}%")
+print(f"Percentual de representação de RJ: {valor_rj:.2f}%")
+print(f"Percentual de representação de MG: {valor_mg:.2f}%")
+print(f"Percentual de representação de ES: {valor_es:.2f}%")
+print(f"Percentual de representação de Outros: {valor_outros:.2f}%")
+
+#A maior porcentagem de vendas é do estado de São Paulo.
